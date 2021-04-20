@@ -17,3 +17,26 @@ body {
     position: relative;
     padding: 30px;
 }
+
+.badge {
+    background: #e66357;
+    color: black;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 120px;
+    position: absolute;
+    top: -15px;
+    left: 33%;
+    text-align: center;
+}
+
+.clock {
+    background: #f8f8f8;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: orbitron;
+    border-radius: 5px;
+}
