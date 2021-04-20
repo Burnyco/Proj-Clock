@@ -17,8 +17,8 @@ function clock() {
     }
 
     document.getElementById('hour').innerHTML = '' + hours;
-    document.getElementById('minute').innerHTML = '' + mins;
-    document.getElementById('second').innerHTML = '' + sec;
+    document.getElementById('minute').innerHTML = ':' + mins;
+    document.getElementById('second').innerHTML = ':' + sec;
 
 
 }
